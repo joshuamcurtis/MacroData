@@ -1,4 +1,6 @@
-        
+import sqlite3 as db
+from sqlite3 import Error
+
 def create_connection(db_name):
     """ 
     create a database connection to the SQLite database
